@@ -162,8 +162,8 @@ body {
 
     #btn {
         position: relative;
-    top: 2vh;
-    left: 57vw;
+    top: 10%;
+    left: 80%;
     width: 15vw;
     box-shadow: 2px 5px 41px 35px skyblue;
     border: 2px solid blue;
@@ -190,8 +190,8 @@ body {
 
 #btn {
     position: relative;
-    top: 2vh;
-    left: 69vw;
+    top: 10%;
+    left: 80%;
     width: 4vw;
     box-shadow: 2px 5px 41px 35px skyblue;
     border: 2px solid blue;
