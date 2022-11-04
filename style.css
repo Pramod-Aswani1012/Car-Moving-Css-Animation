@@ -126,8 +126,8 @@ body {
         background-size: contain;
         /* top: 10%; */
         position: absolute;
-        top: 60vh;
-        left: 14vw;
+        top: 80vh;
+        left: 12vw;
 
         display: flex;
         flex-direction: row;
@@ -145,7 +145,7 @@ body {
     .wheels {
         position: absolute;
 
-        animation: wheelrotation linear 0.4s infinite;
+        animation: wheelrotation linear 0.3s infinite;
         /* animation-play-state: running; */
     }
 
@@ -164,11 +164,11 @@ body {
         position: relative;
     top: 2vh;
     left: 57vw;
-    width: 45vw;
+    width: 55vw;
     box-shadow: 2px 5px 41px 35px skyblue;
     border: 2px solid blue;
     border-radius: 23%;
-    height: 9vh;
+    height: 8vh;
     z-index: 2;
     cursor: pointer;
     background-color: lightblue;
@@ -181,8 +181,8 @@ body {
         left: 88vw;
         display: none;
         border-radius: 16%;
-        width: 12vw;
-        height: 44vh;
+        width: 15vw;
+        height: 38vh;
         position: relative;
         animation: trafficsmalltolarge 0.3s;
     }
