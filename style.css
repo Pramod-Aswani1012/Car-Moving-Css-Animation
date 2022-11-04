@@ -165,7 +165,7 @@ body {
     top: 2vh;
     left: 57vw;
     width: 14vw;
-    box-shadow: 2px 5px 41px 35px skyblue;
+    /* box-shadow: 2px 5px 41px 35px skyblue; */
     border: 2px solid blue;
     border-radius: 23%;
     height: 9vh;
@@ -185,6 +185,22 @@ body {
         height: 44vh;
         position: relative;
         animation: trafficsmalltolarge 0.3s;
+    }
+
+    #horn {
+        position: relative;
+        top: 3.3vh;
+        left: 36%;
+        width: 4rem;
+        /* box-shadow: 2px 5px 41px 35px skyblue; */
+        border: 2px solid blue;
+        border-radius: 23%;
+        height: 11vh;
+        z-index: 2;
+        cursor: pointer;
+        background-color: lightblue;
+        font-size: 1rem;
+        transition: all 1s;
     }
 }
 
