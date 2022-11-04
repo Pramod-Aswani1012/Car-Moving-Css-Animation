@@ -36,3 +36,10 @@ let a = document.getElementById('btn');
                 lt.style.animationPlayState='running';
             }
         }
+
+        function blowhorn()
+        {
+            let blo = document.getElementById('horn');
+            let aud = document.getElementById('audi');
+            aud.play();
+        }
