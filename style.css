@@ -193,7 +193,7 @@ body {
     top: 2vh;
     left: 80%;
     width: 4rem;
-    box-shadow: 2px 5px 41px 35px skyblue;
+    /* box-shadow: 2px 5px 41px 35px skyblue; */
     border: 2px solid blue;
     border-radius: 23%;
     height: 11vh;
@@ -247,4 +247,24 @@ body {
 
 
 
+}
+
+#horn {
+    position: relative;
+    top: 3.3vh;
+    left: 81%;
+    width: 4rem;
+    /* box-shadow: 2px 5px 41px 35px skyblue; */
+    border: 2px solid blue;
+    border-radius: 23%;
+    height: 11vh;
+    z-index: 2;
+    cursor: pointer;
+    background-color: lightblue;
+    font-size: 1rem;
+    transition: all 1s;
+}
+
+#horn:hover {
+    transform: scale(1.2);
 }
