@@ -190,9 +190,9 @@ body {
 
 #btn {
     position: relative;
-    top: 2vh;
+    top: 5%;
     left: 80%;
-    width: 4vw;
+    width: 10%;
     box-shadow: 2px 5px 41px 35px skyblue;
     border: 2px solid blue;
     border-radius: 23%;
