@@ -9,11 +9,15 @@ let a = document.getElementById('btn');
                 b.style.display='block';
                 let sky1 = document.getElementById('ani');
                 let road2 = document.getElementById('road');
-                const wheels3 = document.getElementsByClassName('lefttyre');
-                console.log(sky1.style.animationPlayState);
+                // const wheels3 = document.getElementsByClassName("wheels");
+                let rt = document.querySelector('.righttyre')
+                let lt = document.querySelector('.lefttyre')
+                
+                // console.log(sky1.style.animationPlayState);
                 sky1.style.animationPlayState='paused';
                 road2.style.animationPlayState='paused';
-                wheels3.style.animationPlayState='paused';
+                rt.style.animationPlayState='paused';
+                lt.style.animationPlayState='paused';
             }
             else
             {
@@ -23,10 +27,12 @@ let a = document.getElementById('btn');
                 b.style.display='none';
                 let sky1 = document.getElementById('ani');
                 let road2 = document.getElementById('road');
-                const wheels3 = document.getElementsByClassName('lefttyre');
-                console.log(sky1.style.animationPlayState);
+                let rt = document.querySelector('.righttyre');
+                let lt = document.querySelector('.lefttyre')
+                // console.log(sky1.style.animationPlayState);
                 sky1.style.animationPlayState='running';
                 road2.style.animationPlayState='running';
-                wheels3.style.animationPlayState=='running';
+                rt.style.animationPlayState='running';
+                lt.style.animationPlayState='running';
             }
         }
