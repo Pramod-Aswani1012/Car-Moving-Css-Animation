@@ -162,18 +162,18 @@ body {
 
     #btn {
         position: relative;
-        top: 16vh;
-        left: 108vw;
-        width: 21vw;
-        box-shadow: 2px 5px 4px 35px skyblue;
-        border: 2px solid blue;
-        border-radius: 23%;
-        height: 18vh;
-        z-index: 2;
-        cursor: pointer;
-        background-color: lightblue;
-        font-size: 1rem;
-        transition: all 1s;
+    top: 2vh;
+    left: 57vw;
+    width: 15vw;
+    box-shadow: 2px 5px 41px 35px skyblue;
+    border: 2px solid blue;
+    border-radius: 23%;
+    height: 9vh;
+    z-index: 2;
+    cursor: pointer;
+    background-color: lightblue;
+    font-size: 10px;
+    transition: all 1s;
     }
     #light {
         bottom: 13vh;
@@ -191,12 +191,12 @@ body {
 #btn {
     position: relative;
     top: 2vh;
-    left: 102vw;
-    width: 18vw;
+    left: 69vw;
+    width: 4vw;
     box-shadow: 2px 5px 41px 35px skyblue;
     border: 2px solid blue;
     border-radius: 23%;
-    height: 20vh;
+    height: 11vh;
     z-index: 2;
     cursor: pointer;
     background-color: lightblue;
