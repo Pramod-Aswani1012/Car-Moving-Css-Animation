@@ -117,7 +117,7 @@ body {
     animation: shakecar linear 1s infinite;
 }
 
-@media screen and (min-width:10px) and (max-width:321px) {
+@media screen and (min-width:10px) and (max-width:400px) {
     #car {
         background: url('./Car.png');
         background-repeat: no-repeat;
@@ -126,7 +126,7 @@ body {
         background-size: contain;
         /* top: 10%; */
         position: absolute;
-        top: 80vh;
+        top: 64vh;
         left: 2vw;
 
         display: flex;
@@ -164,7 +164,7 @@ body {
         position: relative;
     top: 2vh;
     left: 57vw;
-    width: 200px;
+    width: 14vw;
     box-shadow: 2px 5px 41px 35px skyblue;
     border: 2px solid blue;
     border-radius: 23%;
@@ -192,7 +192,7 @@ body {
     position: relative;
     top: 2vh;
     left: 80%;
-    width: 4vw;
+    width: 4rem;
     box-shadow: 2px 5px 41px 35px skyblue;
     border: 2px solid blue;
     border-radius: 23%;
