@@ -161,9 +161,9 @@ body {
     }
 
     #btn {
-        position: relative;
+        position: absolute;
     top: 2vh;
-    left: 57vw;
+    left: 35vw;
     width: 14vw;
     /* box-shadow: 2px 5px 41px 35px skyblue; */
     border: 2px solid blue;
